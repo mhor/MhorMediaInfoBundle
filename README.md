@@ -4,7 +4,7 @@ PHP library to run `mediainfo` command
 
 ## Installation
 
-To use this class install it through [Composer](https://getcomposer.org/), add:
+To use this class install it through [Composer](https://getcomposer.org/), run:
 ```bash
 $ composer require mhor/php-mediainfo-bundle
 ```
@@ -13,7 +13,7 @@ $ composer require mhor/php-mediainfo-bundle
 ```php
 <?php
 //...
-$mediaInfo = $this->getContainer()get->('mhor.mediainfo');
+$mediaInfo = $this->getContainer()->get->('mhor.mediainfo');
 $information = $mediaInfo->getInfo('file.mkv');
 //...
 ```
