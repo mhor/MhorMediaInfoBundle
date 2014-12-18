@@ -1,0 +1,3 @@
+services:
+  mhor.mediainfo:
+    class: Mhor\MediaInfoBundle\Service\MediaInfoService

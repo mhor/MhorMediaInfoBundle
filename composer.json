@@ -1,0 +1,29 @@
+{
+    "name": "mhor/php-mediainfo-bundle",
+    "type": "symfony-bundle",
+    "description": "Bundle for using php-mediainfo as service",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mhor",
+            "email": "maxime.horcholle@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/framework-bundle": "~2.3",
+        "mhor/php-mediainfo" : "~1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "@stable",
+        "squizlabs/php_codesniffer": "@stable",
+        "satooshi/php-coveralls": "dev-master"
+    },
+    "autoload": {
+        "psr-4": { "Mhor\\MediaInfoBundle\\" : "src/" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "v1.0.x-dev"
+        }
+    }
+}
