@@ -6,7 +6,7 @@ PHP library to run `mediainfo` command
 
 To use this class install it through [Composer](https://getcomposer.org/), run:
 ```bash
-$ composer require mhor/php-mediainfo-bundle
+$ composer require mhor/mediainfo-bundle
 ```
 
 ## How to use

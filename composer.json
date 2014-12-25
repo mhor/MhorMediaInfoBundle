@@ -1,5 +1,5 @@
 {
-    "name": "mhor/php-mediainfo-bundle",
+    "name": "mhor/mediainfo-bundle",
     "type": "symfony-bundle",
     "description": "Bundle for using php-mediainfo as service",
     "license": "MIT",
@@ -19,7 +19,7 @@
         "satooshi/php-coveralls": "dev-master"
     },
     "autoload": {
-        "psr-4": { "Mhor\\MediaInfoBundle\\" : "src/" }
+        "psr-4": { "Mhor\\MediaInfoBundle\\" : "" }
     },
     "extra": {
         "branch-alias": {
