@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "symfony/framework-bundle": "~2.3",
+        "symfony/framework-bundle": "~2.7|~3.0",
         "mhor/php-mediainfo" : "~1.0"
     },
     "require-dev": {
